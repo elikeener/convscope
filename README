@@ -2,7 +2,7 @@ Welcome to the convscope README!
 
 The purpose of this codebase is to take fast-frame data from an oscilliscope and format the waveforms into a line-by-line text file.
 
-In order to get the code up and running, you must first compile the wfmextract.cc into an executable. This cpp file includes the boost library, so you may need to do some digging to figure out how to install boost and where it is stored on your system. Comments are used to indicate typical filepaths for mac and linux. If you have windows... then I cannot help you :(. (Warning: when it compiles, you will get MANY warnings. As long as it compiles without errors, you are good!)
+In order to get the code up and running, you must first compile the wfmextract.cc into an executable. This cpp file includes the boost library, so you may need to do some digging to figure out how to install boost and where it is stored on your system. Comments are used in the makefile to indicate typical filepaths for mac and linux. If you have windows... then I cannot help you :(. (Warning: when it compiles, you will get MANY warnings. As long as it compiles without errors, you are good!)
 
 Once that code is compiled into an executable, use the convert.sh script to create the text file. The format for the script is as follows:
 
