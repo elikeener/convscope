@@ -1,0 +1,3 @@
+How to run convert.sh
+
+./convert.sh PATH_TO_DIRECTORY/ FILE_NAME_CONVENTION OUTPUT_FILENAME
